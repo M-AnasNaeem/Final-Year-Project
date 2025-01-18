@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "ict302-chatbot-botbuilders",
+  "private_key_id": "add here",
+  "private_key": "-----BEGIN PRIVATE KEY-----ADD KEY HERE-----END PRIVATE KEY-----\n",
+  "client_email": "Google Service Account Email",
+  "client_id": "ID here",
+  "auth_uri": "google auth uri",
+  "token_uri": "google token uri",
+  "auth_provider_x509_cert_url": "google cert url",
+  "client_x509_cert_url": "url",
+  "universe_domain": "googleapis.com"
+}
