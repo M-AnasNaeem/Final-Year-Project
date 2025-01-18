@@ -9,25 +9,40 @@ server:
 1. Clone the Repository:
 Download the chatbot project from the repository. You can use Git to clone it:
 git clone https://github.com/your-repository/chatbot-project.git
+
 2. Set Up Python Environment:
 Ensure Python 3.x is installed on your machine. If not, download it from python.org.
+
 Install the necessary Python packages via pip:
+
 pip install -r requirements.txt
+
 3. Set Up MySQL Database:
-o Install and set up MySQL on your server or local machine.
-o Create a new database (e.g., chatbot_db) and update the database
+
+• Install and set up MySQL on your server or local machine.
+
+• Create a new database (e.g., chatbot_db) and update the database
 configuration in the .env file.
-o Ensure the necessary tables are created by running the provided SQL scripts for
+
+• Ensure the necessary tables are created by running the provided SQL scripts for
 schema setup.
+
 4. Configure Environment Variables:
-o Rename the .env.example file to .env and fill in the necessary values (e.g.,
+
+• Rename the .env.example file to .env and fill in the necessary values (e.g.,
 OpenAI API key, Google Cloud Translation API key, MySQL credentials).
+
 5. Run the Flask Server:
+
 Start the Flask application with:
+
 flask run
+
 The server will start, and you can access the chatbot through your web browser at
 http://localhost:5000.
+
 6. Access the Chatbot:
+
 Open your web browser and navigate to http://localhost:5000 to begin interacting with
 the chatbot.
 # System Requirements:
